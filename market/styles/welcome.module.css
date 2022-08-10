@@ -1,0 +1,108 @@
+.container {
+  background: linear-gradient(45deg, rgb(45, 45, 168), cyan, darkcyan);
+  /* /* rgb(155, 11, 184) */
+  color: aqua;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.container .box {
+  background: rgba(255, 251, 251, 1);
+  margin: 40px auto 90px auto;
+  width: 350px;
+  color: black;
+  border-radius: 8px;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+}
+
+.apikey,
+.apisecret,
+.code,
+.password,
+.username,
+.desc,
+.name {
+  width: 100%;
+  background: rgba(255, 251, 251, 1);
+  margin-top: 5px;
+  height: 22px;
+  border: 1px solid rgb(192, 184, 184);
+  border-left: #ffffff;
+  border-right: #ffffff;
+  border-top: #ffffff;
+  padding: 6px;
+  outline: none;
+  font-size: 16px;
+}
+#register {
+  margin: 20px;
+  padding: auto;
+}
+#label {
+  font-family: "Heebo", sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-left: 5px;
+}
+
+.save {
+  border-radius: 50px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 94px;
+  font-size: 16px;
+  margin-left: 1px;
+  background: white;
+  border: 2px solid darkcyan;
+  color: darkcyan;
+  height: 28px;
+}
+
+.audit {
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Calibri";
+  height: 28px;
+  width: 94px;
+  font-size: 16px;
+  margin-left: 11px;
+  background: white;
+  border: 2px solid darkcyan;
+  color: darkcyan;
+}
+
+.test {
+  background: white;
+  border: 2px solid darkcyan;
+  color: darkcyan;
+  font-weight: bold;
+  height: 28px;
+  font-family: "Calibri";
+  width: 94px;
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.heading {
+  font-size: 28px;
+  font-family: "Josefin sans", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: #0f0b0b;
+  margin-top: 10px;
+}
+
+.err {
+  height: 12px;
+  color: red;
+  font-size: 10px;
+}
+
+.i {
+  height: 40px;
+}

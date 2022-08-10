@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: rgb(236 232 232);
+}
+
+.heading {
+  display: flex;
+  background: transparent;
+  justify-content: first baseline;
+  box-sizing: border-box;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  font-family: "Heebo", sans-serif;
+  font-family: "Oswald", sans-serif;
+  flex-grow: 1;
+  height: 48px;
+}
+
+.heading1 {
+  display: flex;
+  background: transparent;
+  font-size: 18px;
+  height: auto;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 5px;
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  letter-spacing: 2px;
+  font-style: revert;
+  background: transparent;
+  justify-content: first baseline;
+  flex-grow: 1;
+}
+
+.content {
+  background: transparent;
+  height: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  padding: 25px;
+  color: #39a2d3;
+}
+
+.table {
+  table-layout: fixed;
+  width: 900px;
+  height: max-content;
+  border: 1px solid rgb(83, 81, 81);
+  text-align: start;
+  background: white;
+  color: rgb(46, 43, 43);
+}
+
+.th {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid rgb(255, 255, 255);
+
+  text-align: start;
+  border: 1px solid rgb(83, 81, 81);
+  padding: 6px;
+  background: white;
+  color: rgb(46, 43, 43);
+}
+
+.td {
+  table-layout: fixed;
+  width: 100%;
+  text-align: start;
+  border: 1px solid rgb(22, 19, 19);
+  padding: 6px;
+  background: white;
+  color: rgb(46, 43, 43);
+}
+
+.headingcontainer {
+  height: 110px;
+  background: linear-gradient(45deg, rgb(7, 15, 88), blue, rgb(7, 15, 88));
+  background: cadetblue;
+}
